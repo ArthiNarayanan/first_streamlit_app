@@ -75,7 +75,7 @@ try:
         my_v=insert_row_snowflake(fruit_choice1)
         streamlit.write(my_v)
         my_cnx.close()
- except URLError as e:
+except URLError as e:
     streamlit.error()
 
 
